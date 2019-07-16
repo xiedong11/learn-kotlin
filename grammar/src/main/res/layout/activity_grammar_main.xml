@@ -81,6 +81,55 @@
                             android:layout_height="wrap_content"/>
                 </LinearLayout>
             </LinearLayout>
+
+            <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:text="控制语句"/>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <Button
+                        android:id="@+id/btn_condition"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="分支判断"/>
+
+                <Button
+                        android:id="@+id/btn_repeat"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="循环跳转"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <Button
+                        android:id="@+id/btn_null"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="空值校验"/>
+
+                <Button
+                        android:id="@+id/btn_equal"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="等式判断"/>
+
+            </LinearLayout>
         </LinearLayout>
     </ScrollView>
 </LinearLayout>

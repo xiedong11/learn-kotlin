@@ -3,6 +3,14 @@
           package="com.zhuandian.grammar">
 
     <application>
+        <activity android:name=".page.EqualActivity">
+        </activity>
+        <activity android:name=".page.NullActivity">
+        </activity>
+        <activity android:name=".page.RepetActivity">
+        </activity>
+        <activity android:name=".page.ConditionActivity">
+        </activity>
         <activity android:name=".page.MapOfActivity">
         </activity>
         <activity android:name=".page.ListOfActivity">
