@@ -15,6 +15,12 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"/>
 
+    <Button
+            android:text="基本语法"
+            android:id="@+id/btn_grammar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
 
 
 

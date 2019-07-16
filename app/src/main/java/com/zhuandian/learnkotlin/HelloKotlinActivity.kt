@@ -3,7 +3,6 @@ package com.zhuandian.learnkotlin
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import kotlinx.android.synthetic.main.activity_hello_kotlin.*
-import kotlinx.android.synthetic.main.activity_main.*
 import org.jetbrains.anko.toast
 
 class HelloKotlinActivity : AppCompatActivity() {
